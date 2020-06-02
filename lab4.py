@@ -6,8 +6,8 @@ n_length = 8
 primeNum1 = number.getPrime(n_length)
 primeNum2 = number.getPrime(n_length)
 
-print(primeNum1)
-print(primeNum2)
+print("Prime number1: {}".format(primeNum1))
+print("Prime number2: {}".format(primeNum2))
 
 n = primeNum1 * primeNum2
 
